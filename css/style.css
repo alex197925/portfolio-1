@@ -17,6 +17,7 @@ a {
     justify-content: center;
     min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* Hero Section */
@@ -52,7 +53,8 @@ a {
     position: relative;
     width: fit-content;
     color: transparent;
-    font-size: 34px;
+    font-size: 54px;
+    letter-spacing: 0.4px;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
 }
@@ -215,7 +217,8 @@ a {
 }
 
 section, #projects .container-card {
-    background-color: #06857b;
+    /* background-color: #06857b; */
+    overflow-x: hidden;
 }
 
 .card img {
@@ -237,6 +240,10 @@ section, #projects .container-card {
     background: #000;
     
 }
+
+ .card p {
+    font-size: 18px;
+ }
 
 .card > div {
     padding: 32px;
@@ -342,4 +349,156 @@ section, #projects .container-card {
     }
 }
 /* End Keyframes */
+
+
+
+@media only screen and (min-width: 350px) {
+
+    #skills .skills-item {
+        flex-basis: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        border-radius: 10px;
+        background-color: grey;
+        margin: 16px 13px;
+        box-shadow: 1px 2px 3px #66fcf1;
+    }
+    .card {
+       display: flex;
+       background-color: #000;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 20px;
+        
+    }
+    #skills .section-title {
+        font-size: 23px;
+   }
+
+.card img {
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   width: 100%;
+   height: 100%;
+}
+.card > div {
+    padding: 32px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        border-radius: 10px;
+        background: #f1f1f1;
+        margin-bottom: 32px;
+        padding: 0;
+        background: #000;
+        
+    }
+    #skills .section-title {
+        
+        font-size: 34px;
+   }
+
+.card img {
+    width: 100%;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    object-fit: contain;
+}
+.card > div {
+    padding: 32px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        border-radius: 10px;
+        background: #f1f1f1;
+        margin-bottom: 32px;
+        padding: 0;
+        background: #000;
+        
+    }
+   
+
+.card img {
+    width: 100%;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    object-fit: contain;
+}
+.card > div {
+    padding: 32px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+}
+
+@media only screen and (min-width: 992px) {
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        border-radius: 10px;
+        background: #f1f1f1;
+        margin-bottom: 32px;
+        padding: 0;
+        background: #000;
+        
+    }
+
+.card img {
+    width: 100%;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    object-fit: contain;
+}
+.card > div {
+    padding: 32px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+}
+
 
