@@ -218,7 +218,7 @@ a {
 }
 
 section, #projects .container-card {
-    /* background-color: #06857b; */
+    background-color: grey;
     overflow-x: hidden;
 }
 
@@ -327,7 +327,7 @@ section, #projects .container-card {
 .section {
     width: 100%;
     min-height: 100vh;
-    background-color: #ddd;
+    background-color: #969292;
 }
 
 .container {
@@ -369,42 +369,26 @@ section, #projects .container-card {
     margin-top: 20px;
     font-family: sans-serif;
     font-size: 18px;
+    height: 300px;
     margin-right: 20px;
     line-height: 1.5;
     overflow: scroll;
     height: 300px;
 }
 
-.content-section .content .button {
-    margin-top: 30px;
-}
-
-.content-section .content .button a {
-    background-color: #3d3d3d;
-    padding: 12px 40px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 24px;
-    letter-spacing: 1.5px;
-}
-
-.content-section .content .button a:hover {
-    background-color: chartreuse;
-    color: #000;
-}
 
 .content-section .social {
     margin: 40px 25px;
 }
 
 .content-section .social li  {
-    color: chocolate;
+    color: #66FCF1;
     font-size: 30px;
     padding: 0 10px;
 }
 
 .content-section .social li:hover {
-    color: rgb(218, 13, 13);
+    color: #16b1a7;
 }
 
 /* End About Section */
