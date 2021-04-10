@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -20,6 +21,109 @@ a {
     width: 100%;
     overflow-x: hidden;
 }
+
+
+/* Nav-bar Section */
+
+.toggle {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../humburger-menu/icons8-menu-vertical-100.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+    z-index: 200;
+}
+
+
+.toggle.active {
+    background: url("../humburger-menu/cancel.svg");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.banner .imgSidebar {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+}
+
+
+
+.banner .contentBx, .sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc;
+    width: calc(100% - 500px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    background: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px;
+    z-index: 100;
+    right: -100%;
+}
+
+
+.sidebar.active {
+    right: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sidebar ul li a:hover {
+        color: #66FCF1;
+}
+
+
+/* End Nav-bar Section */
+
+
+
 
 /* Hero Section */
 #hero {
@@ -125,10 +229,7 @@ a {
     transition-property: background-color, color;
 }
 
-#hero .cta:hover {
-    color: #000;
-    background-color: #66FCF1;
-}
+
 /* End Hero Section */
 
 
@@ -281,7 +382,6 @@ section, #projects .container-card {
     margin-top: 50px;
     transition: .3s ease;
     transition-property: background-color, color;
-    cursor: pointer;
 }
 
  .card .btn-card:hover {
@@ -329,7 +429,7 @@ section, #projects .container-card {
     width: 80%;
     display: block;
     margin: auto;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .content-section {
@@ -443,20 +543,7 @@ section, #projects .container-card {
     transform: rotate(380deg);
 }
 
-
-
-
-
-
 /* End Contact Section */
-
-
-
-
-
-
-
-
 
 
 
