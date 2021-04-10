@@ -148,7 +148,7 @@
         background: #000;
         
     }
-    #skills .section-title {
+    #skills .section-title{
         
         font-size: 34px;
    }
@@ -174,24 +174,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-    #hero .hero {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 50px;
-        justify-content: flex-end;
-        display: flex;
-    }
 
-    #hero h1 {
-        display: block;
-        position: relative;
-        width: fit-content;
-        color: transparent;
-        font-size: 42px;
-        letter-spacing: 0.4px;
-        animation: text_reveal .5s ease forwards;
-        animation-delay: 1s;
-    }
 
     .about {
         background: #eaeaea;
@@ -211,7 +194,6 @@
     
     .about .content .textBt p {
         float: right;
-        /* height: 438px; */
         width: 100%;
     }
 
@@ -226,39 +208,39 @@
     }
     
    
-    .card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 32px;
-        border-radius: 10px;
-        background: #f1f1f1;
-        margin-bottom: 32px;
-        padding: 0;
-        background: #000;
-        
-    }
-   
 
-    .card img {
-        width: 100%;
-        height: 400px;
-        padding-left: 10px;
-        padding-right: 10px;
-        object-fit: contain;
-    }
-    .card > div {
-        padding: 32px;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-    }
 }
 
 @media only screen and (min-width: 992px) {
+
+    #section .section-title h1 {
+        font-size: 300px;
+    }
+
+    #contact .contact {
+        max-width: 1000px;
+        height: 100vh;
+        /* display: flex; */
+        
+    }
+
+    #contact .contact-info h2 {
+        letter-spacing: 0.5px;
+    }
+    
+    #contact .contact-items {
+        display: flex;
+        margin-top: 200px;
+    }
+    
+    #contact .contact-item {
+        margin: 20px;
+    }
+
+
+
+
+
     #hero .hero {
         max-width: 1200px;
         margin: 0 auto;
@@ -293,44 +275,9 @@
     }
     
 
-    .card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 32px;
-        border-radius: 10px;
-        background: #f1f1f1;
-        margin-bottom: 32px;
-        padding: 0;
-        background: #000;
-        
-    }
-
-    .card img {
-        width: 100%;
-        height: 400px;
-        padding-left: 10px;
-        padding-right: 10px;
-        object-fit: contain;
-    }
-    .card > div {
-        padding: 32px;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        width: 80%;
-        display: block;
-        margin: auto;
-        padding-top: 50px;
-    }
 
     .content-section {
         float: none;
@@ -356,5 +303,9 @@
     .content-section .social {
         text-align: center;
     }
+
+   #section .section-title h1 {
+       font-size: 300px;
+   }
  }
 

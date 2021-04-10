@@ -107,7 +107,7 @@ a {
     font-size: 18px;
     color: transparent;
     animation: text_reveal .7s ease forwards;
-    animation-delay: 4.5s;
+    animation-delay: 3.5s;
 }
 
 #hero .cta {
@@ -206,8 +206,6 @@ a {
     color: #333;
 }
 
-
-
 .container-card {
     flex-direction: column;
     text-align: center;
@@ -291,7 +289,6 @@ section, #projects .container-card {
     background-color: #66FCF1;
 }
 
-
 .main-header {
     height: 30vh;
     display: flex;
@@ -315,8 +312,6 @@ section, #projects .container-card {
     font-size: 24px;
     color: #fff;
 }
-
-
 /* End Project Section */
 
 
@@ -349,14 +344,14 @@ section, #projects .container-card {
 
 .image-section img {
     width: 100%;
-    height: 350px;
-    margin-top: 80px;
+    height: 400px;
+    margin-top: 90px;
     object-fit: contain;
 }
 
 .content-section .title {
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 34px;
 }
 
 .content-section .content h3 {
@@ -390,8 +385,81 @@ section, #projects .container-card {
 .content-section .social li:hover {
     color: #16b1a7;
 }
-
 /* End About Section */
+
+/* Contact Section */
+
+#contact .contact {
+    max-width: 1200px;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+#contact .contact-items {
+    width: 100%;
+    
+}
+
+#contact .contact-item {
+    width: 72%;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px #66FCF1;
+}
+
+#contact .icon {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#contact .contact-info h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#contact .contact-info h2 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: smaller;
+}
+
+#contact .contact-item i {
+    color: #66FCF1;
+    cursor: pointer;
+    animation: rotation 2s infinite linear;
+}
+
+#contact .contact-item i:hover {
+    transform: rotate(380deg);
+}
+
+
+
+
+
+
+/* End Contact Section */
+
+
+
+
+
+
+
+
+
+
+
 
 /* Keyframes */
 @keyframes text_reveal_box {
