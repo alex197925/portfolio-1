@@ -1,5 +1,4 @@
 @media only screen and (min-width: 350px) {
-
     #hero .hero {
         max-width: 1200px;
         margin: 0 auto;
@@ -100,6 +99,7 @@
 
 @media only screen and (min-width: 600px) {
 
+
     #hero .hero {
         max-width: 1200px;
         margin: 0 auto;
@@ -176,8 +176,15 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media (max-width: 766px) {
+    .toggle {
+        display: none;
+    }
+}
 
+
+@media only screen and (min-width: 768px) {
+        
 
     .about {
         background: #eaeaea;
@@ -212,7 +219,12 @@
 }
 
 @media only screen and (min-width: 992px) {
-
+     
+    .container {
+        width: 81%;
+        display: block;
+        margin: auto;
+    }
 
     #contact .contact-info h2 {
         letter-spacing: 0.5px;
@@ -261,6 +273,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    /* .toggle {
+        display: none;
+    } */
+
+    .container {
+        width: 81%;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+    }
 
     .content-section {
         float: none;

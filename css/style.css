@@ -39,7 +39,6 @@ a {
     z-index: 200;
 }
 
-
 .toggle.active {
     background: url("../humburger-menu/cancel.svg");
     background-repeat: no-repeat;
@@ -47,7 +46,6 @@ a {
     background-position: center;
     cursor: pointer;
 }
-
 
 .banner .imgSidebar {
 
@@ -57,8 +55,6 @@ a {
     width: 500px;
     height: 100%;
 }
-
-
 
 .banner .contentBx, .sidebar {
     position: absolute;
@@ -104,19 +100,27 @@ a {
     margin-bottom: 15px;
 }
 
+
 .sidebar ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    margin: 10px 0;
-    font-weight: 300;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 800;
+    background: linear-gradient(to right, #66FCF1, #66FCF1 50%, #fff 50%);
+    overflow: hidden;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
 }
 
+
+
+
 .sidebar ul li a:hover {
-        color: #66FCF1;
+    background-position: 0 100%;
 }
 
 
@@ -429,12 +433,13 @@ section, #projects .container-card {
     width: 80%;
     display: block;
     margin: auto;
-    /* padding-top: 100px; */
 }
 
 .content-section {
     float: left;
     width: 55%;
+    margin-top: 46px;
+    height: auto;
 }
 
 .image-section {
