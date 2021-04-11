@@ -49,17 +49,7 @@
     }
 
     #skills .skills-item {
-        flex-basis: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 200px;
-        flex-wrap: wrap;
-        border-radius: 10px;
-        background-color: grey;
-        margin: 16px 13px;
-        box-shadow: 1px 2px 3px #66fcf1;
+        padding: 12px;
     }
 
     .card {
@@ -176,15 +166,20 @@
 
 }
 
-@media (max-width: 766px) {
-    .toggle {
-        display: none;
-    }
-}
-
 
 @media only screen and (min-width: 768px) {
-        
+    #skills .skills-item {
+        flex-basis: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 71px;
+        border-radius: 10px;
+        background-color: grey;
+        margin: 16px 13px;
+        box-shadow: 1px 2px 3px #66fcf1;
+    }
 
     .about {
         background: #eaeaea;
@@ -219,6 +214,7 @@
 }
 
 @media only screen and (min-width: 992px) {
+
      
     .container {
         width: 81%;
@@ -273,10 +269,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* .toggle {
-        display: none;
-    } */
 
+    .sidebar.active {
+        width: 300px;
+    }
+
+    .sidebar ul li {
+        font-size: 18px;
+    }
     .container {
         width: 81%;
         display: block;

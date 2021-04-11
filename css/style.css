@@ -47,14 +47,14 @@ a {
     cursor: pointer;
 }
 
-.banner .imgSidebar {
+/* .banner .imgSidebar {
 
     position: absolute;
     top: 0;
     left: 0;
     width: 500px;
     height: 100%;
-}
+} */
 
 .banner .contentBx, .sidebar {
     position: absolute;
@@ -68,8 +68,6 @@ a {
     align-items: center;
     padding: 100px;
 }
-
-
 
 .sidebar {
     position: fixed;
@@ -100,7 +98,6 @@ a {
     margin-bottom: 15px;
 }
 
-
 .sidebar ul li a {
     position: relative;
     display: inline-block;
@@ -116,17 +113,10 @@ a {
     transition: background-position 275ms ease;
 }
 
-
-
-
 .sidebar ul li a:hover {
     background-position: 0 100%;
 }
-
-
 /* End Nav-bar Section */
-
-
 
 
 /* Hero Section */
@@ -232,8 +222,6 @@ a {
     transition: .3s ease;
     transition-property: background-color, color;
 }
-
-
 /* End Hero Section */
 
 
@@ -421,8 +409,6 @@ section, #projects .container-card {
 
 
 /* About Section*/
-
-
 .section {
     width: 100%;
     min-height: 100vh;
@@ -492,8 +478,8 @@ section, #projects .container-card {
 }
 /* End About Section */
 
-/* Contact Section */
 
+/* Contact Section */
 #contact .contact {
     max-width: 1200px;
     padding-top: 0;
