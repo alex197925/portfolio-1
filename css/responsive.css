@@ -1,1 +1,313 @@
+@media only screen and (min-width: 350px) {
+    #hero .hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 50px;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+    #hero h1 {
+        display: block;
+        position: relative;
+        width: fit-content;
+        color: transparent;
+        font-size: 34px;
+        letter-spacing: 0.4px;
+        animation: text_reveal .5s ease forwards;
+        animation-delay: 1s;
+    }
+
+    #hero h3 {
+        display: block;
+        position: relative;
+        width: fit-content;
+        color: #fff;
+        margin-top: 4px;
+        margin-bottom: 20px;
+        font-size: 17px;
+        color: transparent;
+        animation: text_reveal .7s ease forwards;
+        animation-delay: 4.5s;
+    }
+
+    .about .content .textBt p {
+        text-align: justify;
+        color: #211919;
+        font-size: 16px;
+        padding: 0;
+        margin-top: 20px;
+        font-weight: 300;
+        height: 342px;
+        overflow: scroll;
+        width: 82vw;
+    }
+
+    .about .content {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    #skills .skills-item {
+        padding: 12px;
+    }
+
+    .card {
+       display: flex;
+       background-color: #000;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 20px;
+        
+    }
+
+    #skills .section-title {
+        font-size: 23px;
+   }
+
+    .card img {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card > div {
+        padding: 32px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+
+    #hero .hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 50px;
+        justify-content: flex-start;
+        display: flex;
+    }
+    
+    .content-section .content p {
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-size: 18px;
+       font-weight: 300;
+        margin-right: 20px;
+        line-height: 1.5;
+        overflow: scroll;
+
+    }
+    .about {
+        flex-direction: column;
+    }   
+    
+    .about .content .imgBt img {
+            max-width: 100%;
+            height: 439px;
+            width: 90%;
+            object-fit: contain;
+           
+    }
+
+    .about .content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+        border-radius: 10px;
+        background: #f1f1f1;
+        margin-bottom: 32px;
+        padding: 0;
+        background: #000;
+        
+    }
+
+    #skills .section-title{
+        
+        font-size: 34px;
+   }
+
+    .card img {
+        width: 100%;
+        height: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+        object-fit: contain;
+    }
+
+    .card > div {
+        padding: 32px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    #skills .skills-item {
+        flex-basis: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 71px;
+        border-radius: 10px;
+        background-color: grey;
+        margin: 16px 13px;
+        box-shadow: 1px 2px 3px #66fcf1;
+    }
+
+    .about {
+        background: #eaeaea;
+        padding: 40px;
+        min-height: 100vh;
+        padding-top: 30px;
+    }
+    
+    .about .content {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    .about .content .textBt p {
+        float: right;
+        width: 100%;
+    }
+
+    .about .content .imgBt img {
+        max-width: 100%;
+        height: 439px;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+    
+   
+
+}
+
+@media only screen and (min-width: 992px) {
+
+     
+    .container {
+        width: 81%;
+        display: block;
+        margin: auto;
+    }
+
+    #contact .contact-info h2 {
+        letter-spacing: 0.5px;
+    }
+    
+    #contact .contact-items {
+        display: flex;
+        margin-top: 200px;
+    }
+    
+    #contact .contact-item {
+        margin: 20px;
+    }
+
+    #hero .hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 50px;
+        justify-content: center;
+        display: flex;
+    }
+    #hero h1 {
+        display: block;
+        position: relative;
+        width: fit-content;
+        color: transparent;
+        font-size: 54px;
+        letter-spacing: 0.4px;
+        animation: text_reveal .5s ease forwards;
+        animation-delay: 1s;
+    }
+    .about .content {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 70px;
+        }
+
+
+    .about .content .imgBt img {
+        max-width: 100%;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .sidebar.active {
+        width: 300px;
+    }
+
+    .sidebar ul li {
+        font-size: 18px;
+    }
+    .container {
+        width: 81%;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+    }
+
+    .content-section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .image-section {
+        float: none;
+        width: 100%;
+       
+    }
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+   
+
+    .content-section .social {
+        text-align: center;
+    }
+
+ }
 
